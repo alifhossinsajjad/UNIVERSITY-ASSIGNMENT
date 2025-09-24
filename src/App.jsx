@@ -7,7 +7,7 @@ import { Suspense, useState } from 'react'
 import CountBox from './components/CountBox/CountBox'
 import Assignment from './components/Assingment/Assignment'
 
-const assignmentPromise = fetch('/public/utilits/data.json').then(res=> res.json());
+const assignmentPromise = fetch('/utilits/data.json').then(res=> res.json());
 
 
 function App() {
